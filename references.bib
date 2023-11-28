@@ -1,0 +1,869 @@
+% https://www.bruot.org/ris2bib/ 
+% For å konvertere frå .ris til .bib
+
+%\nocite{imt_software_wiki}  % This is an example of how to add a reference to the bibliography at the end without having it displayed as a reference within the text
+
+% Change reference style on line 33 in packages.sty
+% Styles: https://no.overleaf.com/learn/latex/Biblatex_citation_styles
+
+%------------------------------------------------------------------
+% Datasheets and product manuals
+%------------------------------------------------------------------
+
+@manual{u.fl_connector_manual,
+    title = {Ultra Small Surface Mount Coaxial Connectors - 1.9mm or 2.3mm,
+2.4mm Mated Height},
+    subtitle = {U.FL Series},
+    organization = {Hirose Electric},
+    month = {10},
+    year = {2018},
+    language = {eng},
+    url = {https://www.farnell.com/datasheets/2691132.pdf},
+    urldate = {2022-05-17}
+}
+
+@manual{Swarm_M138_manual,
+    title = {Swarm M138 Modem},
+    subtitle = {Product Manual},
+    organization = {Swarm Technologies},
+    month = {02},
+    year = {2022},
+    language = {eng},
+    version = {1.20},
+    url = {https://swarm.space/wp-content/uploads/2022/04/SwarmM138-Modem-Product-Manual.pdf},
+    urldate = {2022-04-24}
+}
+
+@manual{nucleo-l4p5zg_manual,
+    title = {UM2179 User manual},
+    subtitle = {STM32 Nucleo-144 boards (MB1312)},
+    organization = {STMicroelectronics},
+    month = {11},
+    year = {2019},
+    language = {eng},
+    version = {9},
+    url = {https://www.st.com/resource/en/user_manual/um2179-stm32-nucleo144-boards-mb1312-stmicroelectronics.pdf},
+    urldate = {2022-05-01}
+}
+
+@manual{STM32_Chip,
+	title = {STM32L4P5xx},
+	organization = {STMicroelectronics},
+	year = {2021},
+	language = {eng},
+	version = {3},
+	url = {https://www.st.com/resource/en/datasheet/stm32l4p5zg.pdf},
+	urldate = {2022-05-05}
+}
+
+@online{pololu_G2_manual,
+    title = {Pololu Dual G2 High-Power Motor Driver 18v18 for Raspberry Pi (Partial Kit)},
+    organization = {Pololu},
+    language = {eng},
+    url = {https://www.pololu.com/product/3750},
+    urldate = {2022-05-12}
+}
+
+@manual{Raspberry_Pi_Manual,
+	title = {Raspberry Pi 3 Model B+},
+	organization = {Raspberry Pi Foundation},
+	url = {https://static.raspberrypi.org/files/product-briefs/Raspberry-Pi-Model-Bplus-Product-Brief.pdf},
+	urldate = {2022-05-05}
+}
+
+
+%------------------------------------------------------------------
+% PCB design
+%------------------------------------------------------------------
+
+@report{conducted_EMI,
+    title = {Reduce Conducted EMI in Automotive Buck Converter Applications},
+    author = {Neal Zhang, Daniel Li, Vincent Zhang, Andy Chen},
+    organisation = {Texas Instruments},
+    month = {7},
+    year = {2019},
+    language = {eng},
+    url = {https://www.ti.com/lit/an/snva886/snva886.pdf},
+    urldate = {2022-05-20}
+}
+
+@report{inductor_consideration,
+    title = {Considerations for Power Inductors Used for Buck Converters},
+    organisation = {ROHM Semiconductor},
+    month = {1},
+    year = {2016},
+    language = {eng},
+    version = {Rev. A},
+    url = {https://fscdn.rohm.com/en/products/databook/applinote/ic/power/switching_regulator/buck_pwr_ind_app-e.pdf},
+    urldate = {2022-05-20}
+}
+
+@report{emi_reduction,
+    title = {Reducing EMI in buck converters},
+    author = {Roland van Roy},
+    organisation = {Richtek Technology},
+    month = {1},
+    year = {2016},
+    language = {eng},
+    url = {https://www.richtek.com/Design%20Support/Technical%20Document/~/media/AN%20PDF/AN045_EN.ashx},
+    urldate = {2022-05-20}
+}
+
+@manual{ltc3119_manual,
+    title = {LTC3119},
+    subtitle = {18V, 5A Synchronous Buck-Boost DC/DC Converter},
+    organization = {Linear Technology Corporation},
+    year = {2016},
+    language = {eng},
+    version = {B},
+    url = {https://www.analog.com/media/en/technical-documentation/data-sheets/3119fb.pdf},
+    urldate = {2022-05-01}
+}
+
+@report{Analog_Devices_LDO_vs_SMPS,
+    title = {Basic Concepts of Linear Regulator and Switching Mode Power Supplies},
+    organization = {Analog Devices},
+    author = {Henry J. Zhang},
+    month = {10},
+    year = {2013},
+    language = {eng},
+    url = {https://www.analog.com/media/en/technical-documentation/app-notes/an140.pdf},
+    urldate = {2022-04-28}
+}
+
+@report{SMPS_transients,
+    title = {Measuring Output Ripple and Switching Transients in Switching Regulators},
+    organization = {Analog Devices},
+    author = {Aldrick S. Limjoco},
+    year = {2013},
+    language = {eng},
+    url = {https://www.analog.com/media/en/technical-documentation/application-notes/AN-1144.pdf},
+    urldate = {2022-05-08}
+}
+
+@report{SMPS_input_capacitors,
+    title = {How to select input capacitors for a buck converter},
+    organization = {Texas Instruments},
+    author = {Manjing Xie},
+    year = {2016},
+    language = {eng},
+    url = {https://www.ti.com/lit/an/slyt670/slyt670.pdf},
+    urldate = {2022-05-08}
+}
+
+@report{SMPS_compensation,
+    title = {Switch-mode power converter compensation made easy},
+    organization = {Texas Instruments},
+    author = {Robert Sheehan, Louis Diana},
+    month = {09},
+    year = {2016},
+    language = {eng},
+    url = {https://www.ti.com/seclit/ml/slup340/slup340.pdf},
+    urldate = {2022-05-09}
+}
+
+%------------------------------------------------------------------
+% Satellite communication theory
+%------------------------------------------------------------------
+
+
+@misc{fleet_space,
+	title = {Satellite communications and space exploration {\textbar} {Fleet} {Space} {Technologies} - {Home}},
+	url = {https://fleetspace.com},
+	abstract = {Fleet is an agile, next generation connectivity company. Our mission is to Connect Everything using cutting-edge communications and space technologies to maximise the resource efficiency of human civilisation and enable the next industrial revolution with our free, ubiquitous connectivity platform.},
+	language = {en-US},
+	urldate = {2022-05-17},
+	journal = {Satellite communications and space exploration {\textbar} Fleet Space Technologies},
+}
+
+
+@misc{kepler_nodate,
+	title = {Kepler {Communications}},
+	url = {https://kepler.space/},
+	language = {en-US},
+	urldate = {2022-05-17},
+}
+
+
+@misc{OQ_satellite_nodate,
+	title = {Satellite {5G} {IoT} - {OQ} {TECHNOLOGY} - {Global} {Satellite} {5G} {Operator}},
+	url = {https://oqtec.space/},
+	abstract = {OQ Technology's  Satellite 5G IoT - The world's first global satellite 5G operator, that can collect data from more than 1000 sensors, and so providing cellular coverage for assets and machines anywherer in the world.},
+	urldate = {2022-05-17},
+}
+
+
+
+
+
+@article{washingtonpost_coorperate_space,
+	title = {Analysis {\textbar} {Companies} are commercializing outer space. {Do} government programs still matter?},
+	issn = {0190-8286},
+	url = {https://www.washingtonpost.com/politics/2022/01/11/companies-are-commercializing-outer-space-do-government-programs-still-matter/},
+	abstract = {For now, national governments control the rules — and much of the funding.},
+	language = {en-US},
+	urldate = {2022-05-14},
+	journal = {Washington Post},
+}
+
+@misc{iridium_short_burst_data,
+	title = {Iridium {Short} {Burst} {Data} {Service}: {Monthly} \& {Prepaid} {Options}},
+	shorttitle = {Iridium {Short} {Burst} {Data} {Service}},
+	url = {https://satellitephonestore.com/iridium-sdb},
+	abstract = {Explore Iridium Short Burst Data \& A Variety Of Other Satellite Services Today! Maritime Data Terminals · Satellite Terminals · Satellite Phone Experts · Same Day Delivery},
+	language = {en},
+	urldate = {2022-05-14},
+	journal = {Satellite Phone Store},
+}
+
+@misc{gw16130,
+	title = {{GW16130} {Mini}-{PCIe} {Expansion} {Card}},
+	url = {https://www.gateworks.com/products/mini-pcie-expansion-cards/gw16130-mini-pcie-expansion-card/},
+	abstract = {GW16130 Satellite Modem Mini-PCIe Expansion Card A Mini-PCIe Satellite Modem (Iridium) for Rugged and Industrial IoT Applications  Key Product Features Function: Short Burst Data Satellite Radio Radio: Iridium 9603N SBD Satellite Transceiver Coverage: Worldwide Form Factor: Mini-PCIe Max Payload: 340 bytes upload, 270 bytes download Protocols: HTTP or Email Interface: UART AT Commands Antenna: Antenna … GW16130 Mini-PCIe Expansion Card Read More »},
+	language = {en-US},
+	urldate = {2022-05-14},
+	journal = {Gateworks Corporation - Single Board Computers},
+}
+
+
+@book{ElbertBruceR.2008Itsc,
+    title = {Introduction to satellite communication},
+    series = {Artech House space applications series},
+    abstract = {Whether you are a technical or management professional, you can turn to this highly understandable and comprehensive overview of satellite technology, applications, and management. Thoroughly updated and expanded, this third edition boasts a wealth of new material, including added coverage of systems engineering as applied to satellite communications, clear explanations of all aspects of building and using a satellite systems, and discussions on digital communications and processing in modern satellite networks. The new edition also examines critical success factors and how to avoid the pitfalls in selecting satellite and ground resources. The book covers all the fundamentals of satellites, ground control systems, and earth stations, considering the design and operation of each major segment. You gain a practical understanding of the basic construction and usage of commercial satellite networks-how parts of a satellite system function, how various components interact, which role each component plays, and which factors are the most critical to success. Moreover, the book explores the economic, legal, and management issues involved in running the business of satellite communications.},
+    publisher = {Artech House},
+    isbn = {1-5231-1734-6},
+    year = {2008},
+    edition = {3rd ed.},
+    language = {eng},
+    address = {Boston},
+    author = {Elbert, Bruce R.},
+    keywords = {Artificial satellites in telecommunication},
+}
+
+
+@book{john_bloom_eccentric_2016,
+	address = {[London]},
+	title = {Eccentric {Orbits} : {The} {Iridium} {Story} - {How} a {Single} {Man} {Saved} the {World}'s {Largest} {Satellite} {Constellation} {From} {Fiery} {Destruction}},
+	isbn = {978-1-61185-535-7},
+	shorttitle = {Eccentric {Orbits}},
+	abstract = {In the early 1990s, Motorola, the legendary American company, made a huge gamble on a revolutionary satellite telephone system called Iridium. Light-years ahead of anything previously put into space, and built on technology developed for Ronald Reagan's'Star Wars,'Iridium's constellation of sixty-six satellites in six evenly spaced orbital planes meant that at least one satellite was always overhead. Iridium was a mind-boggling technical accomplishment, surely the future of communication. The only problem was that Iridium was also a commercial disaster. Only months after launching service, it was \$11 billion in debt, burning through \$100 million a month and bringing in almost no revenue. Bankruptcy was inevitable - the largest to that point in American history. It looked like Iridium would go down as just a'science experiment.'That is, until Dan Colussy got a wild idea. Colussy, a former CEO of Pan Am, heard about Motorola's plans to'de-orbit'the system and decided he would buy Iridium and somehow turn around one of the biggest blunders in the history of business.Eccentric Orbits masterfully traces the birth of Iridium and Colussy's tireless efforts to stop it from being destroyed, from meetings with his motley investor group, to the Clinton White House, to the Pentagon, to the hunt for customers in special ops, shipping, aviation, mining, search and rescue. Impeccably researched and wonderfully told, Eccentric Orbits is a rollicking, unforgettable tale of technological achievement, business failure, the military-industrial complex and one of the greatest deals of all time.},
+	language = {English},
+	publisher = {Grove Press UK},
+	author = {{John Bloom}},
+	year = {2016},
+	keywords = {Artificial satellites in telecommunication, BUSINESS \& ECONOMICS / Business Communication / General, BUSINESS \& ECONOMICS / General, BUSINESS \& ECONOMICS / Industries / Computers \& Information Technology, BUSINESS \& ECONOMICS / Industries / Media \& Communications, TECHNOLOGY \& ENGINEERING / Mobile \& Wireless Communications},
+}
+
+
+@misc{one_web_form_factor,
+	title = {Maritime},
+	url = {https://oneweb.net/solutions/maritime},
+	abstract = {Whether you are a fleet manager requiring fast connectivity to enable operational efficiencies, or a cruise vessel enabling guests to experience a home-like experience, OneWeb’s flexible and resilient network can meet every level of connectivity needs.},
+	language = {en},
+	urldate = {2022-05-14},
+	journal = {OneWeb},
+}
+
+@misc{starlink_custommer,
+	title = {Customer {Support} - {Starlink}},
+	url = {https://support.starlink.com/},
+	urldate = {2022-05-14},
+}
+
+@misc{the_iridium_netwrok,
+	title = {Network},
+	url = {https://www.iridium.com/network/},
+	abstract = {The satellites of the Iridium network cover the entire earth with connectivity unmatched by any other communications provider. The first Iridium satellite was deployed in 1997 and the network was fully operational in 1998. In 2019, Iridium completed an upgrade to the Iridium constellation, replacing all satellites without ever disrupting service.},
+	language = {en-US},
+	urldate = {2022-05-14},
+	journal = {Iridium Satellite Communications},
+}
+
+
+
+@misc{iridium_advert,
+	title = {Iridium {Communications} {Network} and {Satellite} {Coverage}},
+	url = {https://www.roadpost.com/iridium-satellite-network},
+	publisher = {Roadpost},
+	abstract = {Iridium coverage spans Earth’s polar regions and every inch of land, sea or sky in between. Roadpost offers the best Iridium satellite phones, Iridium network plans and Iridium prepaid cards. Learn more about the Iridium communications network and satellite coverage.},
+	language = {en},
+	urldate = {2022-05-14},
+	journal = {Roadpost USA},
+}
+
+@book{ElbertBruce2014Tscg,
+    title = {The satellite communication ground segment and earth station handbook},
+    series = {Artech House space technology and applications library},
+    abstract = {This edition reflects the state of earth station design and ground segment architecture. From international telephone network gateways to direct broadcast home receivers, today's broad range of ground systems and devices require satellite communication engineers and business managers to have a broad and sound understanding of the design and operating principles of earth stations and ground control facilities. This book explores the delivery end of the satellite link and its relationship to delivery of services. It provides engineers and managers with the knowledge they need to devise their own approach to implementing and managing earth stations and the overall ground segment. Readers find practical guidance in an array of critical areas, including: preparing requirements, performing preliminary analyses, reviewing hardware designs, managing the introduction of the overall ground segment, and more. --},
+    publisher = {Artech House},
+    isbn = {1608076733},
+    year = {2014},
+    edition = {2nd ed.},
+    language = {eng},
+    address = {Norwood, MA},
+    author = {Elbert, Bruce},
+    keywords = {Artificial satellites in telecommunication},
+}
+
+@book{LyleS2005SOaM,
+    title = {Satellites: Orbits and Missions},
+    abstract = {In all, the European Space Agency (ESA) has developed 60 spacecrafts over the last few decades. Some of these, such as the ERS satellites and Envisat, are dedicated to monitoring the Earthand providing vital data on the health status of our planet. Other spacecraft have helped to improve the accuracy of weather forecasting. Galileo, the joint ESA/EU satellite navigation p- gramme, demonstrates the political dimension of space as service-provider for the bene?t of European citizens. While these missions involve utilitarian space activities, others are devoted to either exploring the solar system, - cluding the Sun, or achieving a better understanding of the Universe and the cosmic beginnings. Theorbitsofthesesatellitescoverawiderange(Sun-synchronous,geos- tionary, highly eccentric, at Lagrange points, etc.) so that a complete novice may be astonished when tackling the space technology ?eld. The main credit of Michel Capderou's book is to take the reader (whether it be a student, an engineer or a research scientist) progressively from the basic Kepler laws to the most complex equations of space mechanics. His educational concern has led him to propose many examples and graphicalillustrations from ESA, but alsofromthe American,Russian,Indian,Japaneseor evenChinese space agencies. These programmes provide scienti?c insights and moreover appear to fascinate the general public, in particular the younger generation. Those wishing to understand the orbital mechanisms behind these programmes will ?nd the explanations they seek in this book.},
+    publisher = {Springer Paris},
+    booktitle = {Satellites--Orbits and Missions},
+    isbn = {9782287213175},
+    year = {2005},
+    copyright = {Springer-Verlag France 2005},
+    language = {eng},
+    address = {Paris},
+    author = {Lyle, S and Capderou, Michel},
+    keywords = {Artificial satellites ; Artificial satellites in remote sensing ; Artificial satellites in telecommunication ; Atmospheric Sciences ; Climatology ; Earth and Environmental Science ; Earth Sciences ; Geographical Information Systems/Cartography ; Geophysics/Geodesy ; Mineralogy ; Oceanography ; Orbits},
+}
+
+@report{RUTMAN1991,
+    title = {Characterization of Frequency Stability 
+    In Precision Frequency Sources},
+    organization = {IEEE},
+    author = {JACQUES RUTMAN},
+    month = {7},
+    year = {1991},
+    language = {eng},
+    url = {https://www2.umbc.edu/photonics/Menyuk/Phase-Noise/rutman_ProcIEEE_910601.pdf},
+    urldate = {2022-04-29}
+}
+
+@report{Borys2016,
+    title = {On Modelling AM/AM and AM/PMConversions via Volterra Series},
+    organization = {JOURNAL OF ELECTRONICS AND TELECOMMUNICATIONS},
+    author = {Andrzej Borys},
+    month = {8},
+    year = {2016},
+    language = {eng},
+    url = {https://www.academia.edu/49500544/On_Modelling_AM_AM_and_AM_PM_Conversions_via_Volterra_Series},
+    urldate = {2022-05-01}
+}
+
+@online{BevelacquaDirectivity,
+    title   = {Directivity},
+    author  = {Peter Bevelacqua},
+    url     = {https://www.antenna-theory.com/basics/directivity.php},
+    urldate = {2022-02-15}
+}
+
+@book{carr2000technician,
+  title={The Technician's EMI Handbook: Clues and Solutions},
+  author={Carr, J.},
+  isbn={9780080518589},
+  url={https://books.google.no/books?id=PImqHW34Bt0C},
+  year={2000},
+  publisher={Elsevier Science}
+}
+
+@online{BevelacquaEff,
+    author  = "Peter Bevelacqua",
+    title   = "Antenna Efficiency",
+    url     = "https://antenna-theory.com/basics/efficiency.php",
+    urldate = "2022-02-15"
+}
+
+@report{Galuscak2006,
+    title = {Circular Polarization and Polarization Losses },
+    organization = {CTU Prague},
+    author = {Rastislav Galuscak},
+    month = {1},
+    year = {2006},
+    language = {eng},
+    url = {http://om6aa.eu/Circular_Polarization_and_Polarization_Losses.pdf},
+    urldate = {2022-05-03}
+}
+
+@online{Adzima,
+    author  = "Ryan Adzima",
+    title   = "An Intro to Co-Channel Interference",
+    url     = "https://blogs.arubanetworks.com/industries/an-intro-to-co-channel-interference/",
+    urldate = "2022-05-03"
+}
+
+@book{van2001reference,
+  title={Reference Data for Engineers: Radio, Electronics, Computers and Communications},
+  author={Van Valkenburg, M.E. and Middleton, W.M.},
+  isbn={9780750672917},
+  series={Electronics \& Electrical},
+  url={https://books.google.no/books?id=R67HARlhisYC},
+  year={2001},
+  publisher={Elsevier Science}
+}
+
+@online{SWARM2022,
+    organization  =   "Swarm Technologies",
+    title   =   "Application for Authority to Launch and Operate a Non-Voice, 
+                Non-Geostationary Lower Earth Orbit Satellite System in the Mobile-Satellite Service",
+    url     =   "https://fcc.report/IBFS/SAT-LOA-20181221-00094/1592875.pdf",
+    urldate =   "2022-04-30"
+}
+
+@online{WIKI_BER,
+    author  =   "Wikipedia",
+    title   =   "Bit Error Rate",
+    url     =   "https://en.wikipedia.org/wiki/Bit_error_rate",
+    urldate =   "2022-05-09"
+}
+
+@book{rappaport2002wireless,
+  title={Wireless Communications: Principles and Practice},
+  author={Rappaport, T.S.},
+  isbn={9780130422323},
+  lccn={2002279109},
+  series={Prentice Hall communications engineering and emerging technologies series},
+  url={https://books.google.no/books?id=TbgQAQAAMAAJ},
+  year={2002},
+  publisher={Prentice Hall PTR}
+}
+
+@online{WIKI_RICIAN,
+    author  =   "Wikipedia",
+    title   =   "Rician fading",
+    url     =   "https://en.wikipedia.org/wiki/Rician_fading",
+    urldate =   "2022-05-10"
+}
+
+@online{systemctl,
+    author  =   "WasiUllah Khan",
+    title   =   "Setup a python script as a service through systemctl/systemd",
+    url     =   "https://medium.com/codex/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267",
+    urldate =   "2022-05-09"
+}
+
+@article{IEEE_LoRa_BER,
+  author={Elshabrawy, Tallal and Robert, Joerg},
+  journal={IEEE Communications Letters}, 
+  title={Closed-Form Approximation of LoRa Modulation BER Performance}, 
+  year={2018},
+  volume={22},
+  number={9},
+  pages={1778-1781},
+  doi={10.1109/LCOMM.2018.2849718}}
+  
+@article{IEEE_LoRa_BER_Rician,
+  author={Ferreira Dias C, Rodrigues de Lima E and Fraidenraich G},
+  journal={PMC}, 
+  title={Bit Error Rate Closed-Form Expressions for LoRa Systems under Nakagami and Rice Fading Channels}, 
+  year={2019},
+  doi={10.3390/s19204412},
+  url= "https://pubmed.ncbi.nlm.nih.gov/31614712/",
+  urldate = "2022-05-10"
+  }
+
+@online{WIKI_AWGN,
+    author  =   "Wikipedia",
+    title   =   "Additive white Gaussian noise",
+    url     =   "https://en.wikipedia.org/wiki/Additive_white_Gaussian_noise",
+    urldate =   "2022-03-10"
+}
+
+@book{frenzel2015principles,
+  title={Principles of Electronic Communication Systems},
+  author={Frenzel, L.E.},
+  isbn={9780073373850},
+  lccn={2014031478},
+  url={https://books.google.no/books?id=zJKyoQEACAAJ},
+  year={2015},
+  publisher={McGraw-Hill Education},
+  pages={314-324},
+}
+
+@misc{Kimmo_the_rockstar_lecture_07,
+  author        = {Kimmo Kansanen},
+  title         = {Lecture notes in TTT4145 Radio communication, Link Budget Intro},
+  %month         = {Spring},
+  year          = {2021},
+  publisher={Norwegian University of Science and Technology}
+}
+
+@book{frenzel2015principles_35-40,
+  title={Principles of Electronic Communication Systems},
+  author={Frenzel, L.E.},
+  isbn={9780073373850},
+  lccn={2014031478},
+  url={https://books.google.no/books?id=zJKyoQEACAAJ},
+  year={2015},
+  publisher={McGraw-Hill Education},
+  pages={35-40},
+}
+
+@book{frenzel2015principles_402-403,
+  title={Principles of Electronic Communication Systems},
+  author={Frenzel, L.E.},
+  isbn={9780073373850},
+  lccn={2014031478},
+  url={https://books.google.no/books?id=zJKyoQEACAAJ},
+  year={2015},
+  publisher={McGraw-Hill Education},
+  pages={402-403},
+}
+
+@online{WIKI_No,
+    author  =   "Wikipedia",
+    title   =   "Noise spectral density",
+    url     =   "https://en.wikipedia.org/wiki/Noise_spectral_density",
+    urldate =   "2022-05-15"
+}
+
+@book{proakis2001digital,
+  title={Digital Communications},
+  author={Proakis, J.G.},
+  isbn={9780072321111},
+  lccn={lc00025305},
+  series={Electrical engineering series},
+  url={https://books.google.no/books?id=sbr8QwAACAAJ},
+  year={2001},
+  publisher={McGraw-Hill}
+}
+
+%https://swarm.space/documentation-swarm/
+
+@online{SWARM_dev_tools,
+    organization  =   "Swarm Technologies",
+    title   =   "Documentation",
+    url     =   "https://swarm.space/documentation-swarm/",
+    urldate =   "2022-05-16"
+}
+
+@ARTICLE{Friis,
+  author={Friis, H.T.},
+  journal={Proceedings of the IRE}, 
+  title={A Note on a Simple Transmission Formula}, 
+  year={1946},
+  volume={34},
+  number={5},
+  pages={254-256},
+  doi={10.1109/JRPROC.1946.234568}}
+%------------------------------------------------------------------
+% Satellite clusters
+%------------------------------------------------------------------
+
+@incollection{ITU_refraction,
+    copyright = {2016},
+    language = {eng},
+    author = {International Telecommunications Union},
+    keywords = {Refraction},
+    pages = {1--23},
+    publisher = {International Telecommunications Union},
+    year = {2007},
+    title = {The radio refractive index: its formula and refractivity data},
+}
+
+@incollection{GargVijayK2007RPaP,
+    copyright = {2007},
+    language = {eng},
+    author = {Garg Vijay K},
+    keywords = {computer hardware engineering ; networks sensors},
+    pages = {1--1},
+    publisher = {Elsevier},
+    booktitle = {Wireless Communications and Networking},
+    isbn = {0123735807},
+    year = {2007},
+    title = {Radio Propagation and Propagation Path-Loss Models},
+}
+
+@article{LuiniL2013TSEm,
+    copyright = {Copyright 2013 Elsevier B.V., All rights reserved.},
+    language = {eng},
+    address = {HERTFORD},
+    author = {Luini, L and Capsoni, C},
+    keywords = {Applied sciences ; Engineering ; Engineering, Electrical & Electronic ; Exact sciences and technology ; Propagation through the atmosphere ; Radiocommunications ; Radiowave propagation ; Science & Technology ; Technology ; Telecommunications ; Telecommunications and information theory},
+    issn = {0013-5194},
+    abstract = {The SC EXCELL (Stratiform/Convective EXponential CELL) model, originally devised for the prediction of the complementary cumulative distribution function of rain attenuation (henceforth P(A)) on Earth-space radio links, is tested here in its ability to predict also the P(A) on terrestrial links. Thanks to its physical soundness in representing the rainfall environment, the proposed method does not require any calibration procedure on existing data, as is typically the case of most of the semi-empirical models proposed so far. When tested against the global DBSG3 database made available by the International Telecommunication Union - Radiocommunication Sector (ITU-R), the proposed model shows an improvement in the prediction accuracy with respect to the method currently recommended by the ITU-R.},
+    journal = {Electronics letters},
+    pages = {256--258},
+    volume = {49},
+    publisher = {INST ENGINEERING TECHNOLOGY-IET},
+    number = {4},
+    year = {2013},
+    title = {The SC EXCELL model for prediction of rain attenuation on terrestrial radio links},
+}
+
+@phdthesis{Birkeland2019,
+    language = {eng},
+    author = {Birkeland, Roger},
+    url = {http://hdl.handle.net/11250/2586178},
+    issn = {1503-8181},
+    abstract = {Arktis og verdsrommet er to konsept som er kjelder til fascinasjon og undring for mange av oss. Begge stadane verkar fjerne og ugjestmilde, men samstundes er dei vakre og spanande. Saman utgjer dei ein del av verda som er full av utfordringar, samstundes som dei står for store moglegheiter for vitskap, rekreasjon, kunnskap, undring og inspirasjon. Mange forskarar ynskjer meir og jamnleg oppdatert informasjon om miljøet i dei arktiske områda. I dag eksisterar det ikkje gode kommunikasjonssystem, heller ikkje satellittkommunikasjonssystem, som gjer det mogleg å enkelt hente ut sensordata utan å reise dit sjølv. Gjennom dette arbeidet ynskjer eg å bygge ei bru mellom delar av Arktis til verdsrommet. Resultata frå denne systemstudia kan bringe Arktis nærare oss gjennom eit satellittkommunikasjonssystem, slik at sensorar i Arktis kan nåast av folk som held til i meir sentrale delar av verda. Hovudmotivasjonen for oppgåva var å finne ut om eit kommunikasjonssystem basert på små satellittar kan vere eit brukbart alternativ for å tilby kommunikasjonsløysingar i Arktis. Hovudkonklusjonen viser at det ser ut til å vere mogleg. Småsatellittar har fleire utfordringar og avgrensingar, men ved å designe eit godt system kan dette ha ei yting samanliknbar med andre system, både når ein ser på nytte og på kostnad. Eit av dei viktigaste bidraga i dette arbeidet er studiet av svermar av små satellittar, og korleis ein kan få til desse svermane. Med slike svermar kan ein oppnå god og hyppig dekning, utan å måtte nytte satellittar som har framdriftssystem. Ved å kutte ut framdriftssystemet, vert både kostnad, masse og volum redusert. Dette bidreg også til å redusere oppskytingskostnaden. Det å sende svermen av satellittar ut i bane, ser også mogleg ut, både frå ein teknisk ståstad og frå eit økonomisk perspektiv. Ein av eigenskapane til satellittsvermar er at dekninga ein oppnår på bakken ikkje er konstant. På grunn av at satellittane endrar innbyrdes avstand heile tida, vil dei ved somme tidspunkt sjå ut til å overlappe, og ein mister difor litt kapasitet samanlikna med ein konstellasjon med like mange satellittar. I ein slik konstellasjon held satellittane deira innbyrdes avstand til kvarandre, men då er det naudsynt med eit framdriftssystem for å få dette til. Likevel, for dei fleste tenestene som er diskutert i dette arbeidet handlar det om å flytte informasjon som ikkje er tidskritisk. Difor er det at dekninga endrar seg mindre viktig. Når ein uansett ikkje treng dekning heile tida, spelar variasjon i dekning, samt kor lang tid det tek å flytte informasjonen frå sensor til sluttbrukar ei mindre rolle. Eit anna bidrag frå dette arbeidet er ei systemanalyse om korleis ein heterogen kommunikasjonsarkitektur kan verte definert. Ulike nettverk kan koplast saman gjennom standard internettprotokollar tilpassa Internet of Things (IoT). Slik kan sensorar som står på aude stadar koplast saman med ein sluttbrukar, gjennom internett. Ved bruk av dei vanlege internettprotokollane, sikrar ein at ulike typar utstyr og ulike typar nettverk kan snakke saman. Desse nettverka kan vere lokale linkar i grupper av sensorar, det kan vere satellittlinkar mellom sensorar og ein satellitt, eller mellom satellitt og ein bakkestasjon. I tillegg kan andre bemanna eller ubemanna fartøy frakte data frå ein del av eit nettverk til ein annan del. Desse fartøya kan vere anten i lufta, på eller i sjøen, alt etter som kvar sensoren er plassert. Når ein skal lage eit system for radiokommunikasjon er linkbudsjettet eit av dei viktigaste elementa som må studerast. Her har ein studert forskjellige fenomen som alle har ein innverknad på linkbudsjettet, og ei mogleg løysing er presentert. Likevel, ein må oppfylle fleire føresetnader for at linkbudsjettet skal vere nyttig. For å kunne lage eit system som har ei stor nok datarate til at det blir brukbart, må satellitten verte bygd for å kompensere for nokre av avgrensingane som vil finnast i ein typisk sensor i Arktis. Om ein ynskjer ei enno høgare datarate i systemet, treng også sensoren på bakken ei antenne med ei viss vinning. Dette er eit av fleire spennande tema som er føreslått som vidare arbeid. Kostnaden ved å ta fram eit slikt system er også studert. Her er satellittsystemet samanlikna med eit system som bygger på bruk av ubemanna flygande fartøy, og eit system som nyttar eit fly til å samle inn data frå sensorane. Satellittsystemet vil kunne gi dekning mykje oftare, og vil vere i stand til å hente inn ei samanliknbar mengde data, til ein samanliknbar kostnad. For å summere opp, så viser dette arbeidet at eit eige satellittsystem er ei god løysing på utfordringa det er å skaffe vitskaplege data frå sensorsystem i Arktis, og få dette levert til vitskapsfolk her heime. Arbeidet er basert på etablerte arbeidsmetodar for design og analyse av romprosjekt.},
+    publisher = {NTNU},
+    isbn = {978-82-326-3297-8},
+    year = {2019},
+    title = {On the Use of Micro Satellites as Communication Nodes - in an Arctic Sensor Network},
+}
+
+
+%------------------------------------------------------------------
+% Subsea radio communication
+%------------------------------------------------------------------
+
+@article{Ganesh2021,
+    author = {Ganesh, P. S. S. Pavan and Venkataraman, Hrishikesh},
+    title = {RF-based Wireless Communication for Shallow Water Networks: Survey and Analysis},
+    journal = {Wireless Personal Communications},
+    year = {2021},
+    month = {Oct},
+    day = {01},
+    volume = {120},
+    number = {4},
+    pages = {3415-3441},
+    abstract = {In modern times, applications such as port security, navigation, tsunami alert, etc., need real-time data transfer in shallow waters. These applications require large data rates for multimedia communication between underwater nodes and base-station. Although wired networks provide large data rates, the wires would be an obstacle to moving objects in the water. Alternatively, wireless acoustic communication is used in deep water applications. Notably, in shallow water, radio frequency (RF) communication serves a higher data rate than acoustic but, suffers from less transmission range due to large attenuation. The objective of this research is to study the feasibility of RF propagation in shallow waters and analyze the requirements and challenges for RF-based shallow water wireless networks. A range enhancement technique for RF communication, multi-hop communication, is also surveyed and its challenges for shallow waters are discussed. In the oceans around the Indian subcontinent, the shallow water can be considered as a lossy-dielectric medium and the physical parameters affect the electrical properties. The conductivity of the water increases linearly with an increase in salinity and temperature though this rate is higher with the increase in salinity. The variation in conductivity, in turn, affects the attenuation and path loss. The path loss in Bay-of-Bengal is approximately 2{\%} less than in the Arabian Sea which affects the performance of RF propagation. It is also observed that the RF communication range using a multi-hop technique can be increased up to 240 m in shallow water with a bit error rate of 10−2 at 1 Mbps data rate.},
+    issn = {1572-834X},
+    doi = {10.1007/s11277-021-09068-w},
+    url = {https://doi.org/10.1007/s11277-021-09068-w}
+}
+
+@article{Qureshi2016,
+    AUTHOR = {Qureshi, Umair Mujtaba and Shaikh, Faisal Karim and Aziz, Zuneera and Shah, Syed M. Zafi S. and Sheikh, Adil A. and Felemban, Emad and Qaisar, Saad Bin},
+    TITLE = {RF Path and Absorption Loss Estimation for Underwater Wireless Sensor Networks in Different Water Environments},
+    JOURNAL = {Sensors},
+    VOLUME = {16},
+    YEAR = {2016},
+    NUMBER = {6},
+    ARTICLE-NUMBER = {890},
+    URL = {https://www.mdpi.com/1424-8220/16/6/890},
+    ISSN = {1424-8220},
+    ABSTRACT = {Underwater Wireless Sensor Network (UWSN) communication at high frequencies is extremely challenging. The intricacies presented by the underwater environment are far more compared to the terrestrial environment. The prime reason for such intricacies are the physical characteristics of the underwater environment that have a big impact on electromagnetic (EM) signals. Acoustics signals are by far the most preferred choice for underwater wireless communication. Because high frequency signals have the luxury of large bandwidth (BW) at shorter distances, high frequency EM signals cannot penetrate and propagate deep in underwater environments. The EM properties of water tend to resist their propagation and cause severe attenuation. Accordingly, there are two questions that need to be addressed for underwater environment, first what happens when high frequency EM signals operating at 2.4 GHz are used for communication, and second which factors affect the most to high frequency EM signals. To answer these questions, we present real-time experiments conducted at 2.4 GHz in terrestrial and underwater (fresh water) environments. The obtained results helped in studying the physical characteristics (i.e., EM properties, propagation and absorption loss) of underwater environments. It is observed that high frequency EM signals can propagate in fresh water at a shallow depth only and can be considered for a specific class of applications such as water sports. Furthermore, path loss, velocity of propagation, absorption loss and the rate of signal loss in different underwater environments are also calculated and presented in order to understand why EM signals cannot propagate in sea water and oceanic water environments. An optimal solk6ution for underwater communication in terms of coverage distance, bandwidth and nature of communication is presented, along with possible underwater applications of UWSNs at 2.4 GHz.},
+    DOI = {10.3390/s16060890}
+}
+
+@article{Smolyaninov2018,
+    copyright = {Copyright 2018 Elsevier B.V., All rights reserved.},
+    language = {eng},
+    address = {PISCATAWAY},
+    author = {Smolyaninov, Igor I and Balzano, Quirino and Davis, Christopher C and Young, Dendy},
+    keywords = {Antenna measurements ; Antennas ; Broadband ; Deionization ; Electromagnetic radiation ; Electromagnetic scattering ; Enclosures ; Engineering ; Engineering, Electrical & Electronic ; Impedance matching ; Measuring instruments ; Radio antennas ; Radio communications ; Radio frequency ; Radio waves ; Salt water ; Science & Technology ; Sea surface ; Seawater ; Skin ; surface electromagnetic wave ; Surface impedance ; Surface waves ; Technology ; Telecommunications ; Underwater communication ; Wave propagation ; Wireless communications},
+    issn = {1536-1225},
+    abstract = {An underwater portable radio antenna operating in the 50 MHz band and efficient for launching surface electromagnetic waves at the seawater/air interface is presented. The antenna operation is based on the field enhancement at the antenna tip and on an impedance-matching antenna enclosure, which is filled with deionized water. This enclosure allows us to reduce antenna dimensions and improve the coupling of electromagnetic energy to the surrounding salt water medium. Since surface wave propagation length far exceeds the skin depth of conventional radio waves at the same frequency, this technique is useful for broadband underwater wireless communication over several meters' distances.},
+    journal = {IEEE antennas and wireless propagation letters},
+    pages = {2503--2507},
+    volume = {17},
+    publisher = {IEEE},
+    number = {12},
+    year = {2018},
+    title = {Surface Wave Based Underwater Radio Communication},
+}
+
+@online{research_underwater_amateur,
+    author  = "Lloyd Butler",
+    title   = "Underwater Radio Communication",
+    url     = "http://users.tpg.com.au/users/ldbutler/Underwater_Communication.pdf",
+    urldate = "2021-01-19"
+}
+
+
+@misc{yearly_satellite_launches,
+	title = {Yearly number of objects launched into outer space},
+	url = {https://ourworldindata.org/grapher/yearly-number-of-objects-launched-into-outer-space},
+	abstract = {This includes satellites, probes, landers, crewed spacecraft and space station flight elements launched into Earth orbit or beyond.},
+	urldate = {2022-04-30},
+	journal = {Our World in Data},
+}
+
+
+@misc{satellite_orbiting_earth,
+	title = {Every {Satellite} {Orbiting} {Earth} and {Who} {Owns} {Them} {\textbar} {Dewesoft}},
+	url = {https://dewesoft.com/daq/every-satellite-orbiting-earth-and-who-owns-them},
+	abstract = {Who owns our orbit? Read this article to learn which governments, organizations, and companies own and operate the most satellites orbiting our Earth.},
+	language = {en},
+	urldate = {2022-05-02},
+}
+
+
+@misc{NASA_Budget,
+	title = {Your {Guide} to {NASA}'s {Budget}},
+	url = {https://www.planetary.org/space-policy/nasa-budget},
+	abstract = {How big is NASA's budget right now? What was it like in the past? How does it compare to the rest of government spending? These answers, as well as charts, raw data, and original sourcing, are contained within.},
+	language = {en},
+	urldate = {2022-05-02},
+	journal = {The Planetary Society},
+}
+
+
+@misc{rouge_satellites,
+	title = {Launching {Rogue} {Satellites} {Into} {Space} {Was} a ‘{Mistake}’},
+	url = {https://www.theatlantic.com/technology/archive/2018/09/spacebees-swarm-unauthorized-satellite-launch/569395/},
+	abstract = {Sara Spangelo says she isn’t rebellious by nature. So why did she defy federal regulators?},
+	language = {en},
+	urldate = {2022-04-30},
+	journal = {The Atlantic},
+	author = {Koren, Marina},
+	month = sep,
+	year = {2018},
+	note = {Section: Technology},
+}
+
+
+@misc{fcc_setlement,
+	title = {{FCC} {Reaches} \$900,000 {Settlement} for {Unauthorized} {Satellite} {Launch}},
+	url = {https://www.fcc.gov/document/fcc-reaches-900000-settlement-unauthorized-satellite-launch},
+	abstract = {Resolves an FCC investigation regarding Swarm's unauthorized deployment and operation of satellites, unauthorized operation of earth ground stations, and other unauthorized operation and testing of RF equipment.},
+	language = {en},
+	urldate = {2022-05-02},
+	journal = {Federal Communications Commission},
+	month = dec,
+	year = {2018},
+	}
+
+
+@misc{swarm_launched_satellites,
+	title = {{SpaceBEE} 10, ..., 180},
+	url = {https://space.skyrocket.de/doc_sdat/spacebee-10.htm},
+	abstract = {Swarm Technology's SpaceBEE picosatellites, built to the 0.25U CubeSat form factor are a constellation of 150 picosats to provide two-way satellite...},
+	language = {en},
+	urldate = {2022-04-30},
+	journal = {Gunter's Space Page},
+}
+
+
+@misc{SWARM_FCC_Satellite_Network,
+	title = {Application for {Mobile} {Satellite} {Service} by {Swarm} {Technologies}, {Inc}. [{SAT}-{MOD}-20200501-00040]},
+	url = {https://fcc.report/IBFS/SAT-MOD-20200501-00040},
+	urldate = {2022-05-04},
+}
+
+
+
+@misc{SWARM_FCC_Ground_Network,
+	title = {Application for {Mobile} {Satellite} {Service} by {Swarm} {Technologies}, {Inc}. [{SAT}-{T}/{C}-20210806-00096]},
+	url = {https://fcc.report/IBFS/SAT-T-C-20210806-00096},
+	urldate = {2022-05-04},
+	}
+
+
+@misc{Orbcomm_OG2_FCC,
+	title = {Application for {Mobile} {Satellite} {Service} by {ORBCOMM} {License} {Corp}. [{SAT}-{MOD}-20111021-00207]},
+	url = {https://fcc.report/IBFS/SAT-MOD-20111021-00207},
+	urldate = {2022-05-04},
+}
+
+
+% Satellite Passes
+@misc{TLE_in_STK,
+	title = {{STK} {Tip}: {TLE} {Overview}},
+	shorttitle = {{STK} {Tip}},
+	url = {https://www.youtube.com/watch?v=woft1j_PJvA},
+	abstract = {Kathryn Lane gives an overview of what Two-Line Element Sets are and how to use them in Systems Tool Kit (STK).},
+	urldate = {2022-05-05},
+	author = {{AGI, An Ansys Company}},
+	month = aug,
+	year = {2019},
+}
+
+@misc{Brandon_Rhodes_Pycon_canada_skyfield_2013,
+	title = {Skyfield and 15 {Years} of {Bad} {APIs} - {Brandon} {Rhodes}},
+	url = {https://www.youtube.com/watch?v=FVEEndIwOSA},
+	urldate = {2022-05-05},
+	author = {{PyCon Canada}},
+	month = aug,
+	year = {2013},
+}
+
+@misc{Skyfield_documentation,
+	title = {Skyfield — documentation},
+	url = {https://rhodesmill.org/skyfield/},
+	urldate = {2022-05-05},
+}
+
+@misc{Xephem,
+	title = {{XEphem}},
+	url = {https://xephem.github.io/XEphem/Site/xephem.html},
+	urldate = {2022-05-05},
+}
+
+
+@inproceedings{Sgp4_2008,
+	address = {Honolulu, Hawaii},
+	title = {{SGP4} {Orbit} {Determination}},
+	isbn = {978-1-62410-001-7},
+	url = {https://arc.aiaa.org/doi/10.2514/6.2008-6770},
+	doi = {10.2514/6.2008-6770},
+	language = {en},
+	urldate = {2022-05-05},
+	booktitle = {{AIAA}/{AAS} {Astrodynamics} {Specialist} {Conference} and {Exhibit}},
+	publisher = {American Institute of Aeronautics and Astronautics},
+	author = {Vallado, David and Crawford, Paul},
+	month = aug,
+	year = {2008},
+}
+
+@misc{Celestrak,
+	title = {{CelesTrak}},
+	url = {http://www.celestrak.com/},
+	urldate = {2022-05-05},
+}
+
+@misc{Inmarsat_Coverage,
+	title = {Satellites},
+	url = {https://www.inmarsat.com/en/about/technology/satellites.html},
+	abstract = {Inmarsat owns and operates 14 satellites in geostationary orbit 35,786km (22,236 miles) above the Earth, delivering three market-leading networks.},
+	language = {en},
+	urldate = {2022-05-05},
+	journal = {Inmarsat Corporate Website},
+}
+
+
+@misc{Globestar_Coverage,
+	title = {Coverage {Maps} {\textbar} {Globalstar} {US}},
+	url = {https://www.globalstar.com/en-us/coverage-maps},
+	urldate = {2022-05-05},
+}
+
+
+
+@article{ohmori_characteristics_1985,
+	title = {Characteristics of sea reflection fading in maritime satellite communications},
+	volume = {33},
+	issn = {1558-2221},
+	doi = {10.1109/TAP.1985.1143680},
+	abstract = {The Japanese domestic experimental mobile satellite system (EMSS) has been studied to establish high quality channels for small vessels with compact and low-gain antennas. The present international maritime satellite communication system (INMARSAT) has also been studied for the next generation to extend services for small ships, for which the present ship terminals including the antenna systems are too large and too heavy. By using a low-gain antenna, however, multipath fading caused by sea reflections will become a serious problem in designing the new system. To take effective countermeasures to the fading effect, it is very important to get a better knowledge of the fading phenomena caused by sea reflections. From a standpoint of maritime satellite communications, experiments measuring the amount of fading were performed under various sea conditions and in two frequency bands. The wave height, which is considered the most important experimental parameter, was measured objectively by a wave rider buoy. The experimental results show that the amount of fading depends on a wave height and radio frequency and, as the most interesting result, as a wave increases above a certain level, the amount of fading decreases. These results are also discussed theoretically.},
+	number = {8},
+	journal = {IEEE Transactions on Antennas and Propagation},
+	author = {Ohmori, S. and Irimata, A. and Morikawa, H. and Kondo, K. and Hase, Y. and Miura, S.},
+	month = aug,
+	year = {1985},
+	note = {Conference Name: IEEE Transactions on Antennas and Propagation},
+	keywords = {Satellite communication, Satellite broadcasting, Fading, Frequency measurement, Marine vehicles, Mobile antennas, Reflection, Reflector antennas, Satellite antennas, Sea measurements},
+	pages = {838--845},
+}
+
+
+
+
+
+
+@misc{FaltinsenOddM1990Slos,
+series = {Cambridge ocean technology series},
+publisher = {Cambridge University Press},
+isbn = {0521372852},
+year = {1990},
+title = {Sea loads on ships and offshore structures},
+language = {eng},
+address = {Cambridge},
+author = {Faltinsen, Odd M},
+keywords = {Offshore structures-- Hydrodynamics;Ships-- Hydrodynamics;Ships;Sea transport;Marine konstruksjoner;Ojeplattformer;Belastninger;Boreplattformer;Skipsteknikk;Design;Teknologi;Skip;Offshore;Skipsskrog;Skipshydrodynamikk;Maritim teknologi-- Dynamiske forhold-- Belastning-- Belastning;Havbølger;skip;marine;konstruksjoner;belastninger;bølger;havgående;fartøyer;design;offshore;oljeplattformer;skipshydrodynamikk;skipsskrog;belastning;boreplattformer;skipsteknikk;maritim;teknologi;tmr4215; Marine konstruksjoner -- Hydrodynamikk; Skipsbygging -- Styrkeberegning;Oljeplattformer; Skip -- Hydrodynamikk},
+}
+
+
+
+
+%https://www.st.com/resource/en/datasheet/stm32l4p5zg.pdf
+
+
+
+% Ubåt:
+% https://nuke.fas.org/guide/usa/c3i/vlf.htm
+
+% Methodology
+%https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/#Enabling
+
+@online{Watkins2022,
+    author  = "Jon Watkins",
+    title   = "Configuring The GPIO Serial Port On Raspbian Jessie and Stretch Including Pi 3 and 4",
+    url     = "https://spellfoundry.com/2016/05/29/configuring-gpio-serial-port-raspbian-jessie-including-pi-3-4/#Enabling",
+    urldate = "2022-03-17"
+}
+
+

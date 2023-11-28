@@ -1,0 +1,87 @@
+\section{Hardware}
+
+In this section we will discuss hardware trade-offs, and the decision making behind each hardware choice. Briefly discuss what 
+improvements may be made for the upcoming design. Since the project mainly focuses on experience building, and is working on a 
+significantly shorter time frame, the choice often leaned  towards what was closest at hand. Shortening development time was concidered
+paramount. There have therefore been made several shortcuts. If the component was available at a local hardware store or at Omega Verksted
+it usually was picked. 
+
+% Should add a picture of each component.
+% Should also add a table of what each component is capable of.
+
+\subsection{Motor Control}
+
+\subsection{Motors}
+Documentation on the motors is lacking. They were sold at Omega Verksted, and have previously been used in the SLAM project. Finding any appropriate
+datasheet is however difficult, and none was found. They operate at 6V and have a top speed of 130 rpm. These motors came together in a package of 2
+and each contained the wheel that is currently attached (See picture/Add picture). The fasting mechanism itself seems to fit the shaft fairly well.
+The wheel on the other hand seems to have a worse mounting mechanism. There is significant slack from the wheel to motor shaft. Resulting in the 
+wheel not remaining straight at all time. Inducing a disturbance in the system (Might fit better in the result/Discussion Part).
+
+\subsection{Motor Controller}
+One of the cheapest motor controllers on the market has been chosen to control the system, L298N. This is a controller that has a huge operating
+range. Indeed it is way larger than necessary. The cost saving measures made is that the motor controller is extremly inefficient. There is a
+voltage drop arount 2V from source to motor. Requiring that the power source be larger than necessary. The large heatsink is due to the motorcontroller
+being so innefficient. The heat is luckily not a issue as wer are operating at a lower voltage than maximum specified performance.
+
+\subsection{Super Sonic Sensor}
+The super sonic sensors used in this build were primarily chosen due to them being the most easily at hand. They work by sending out a soundwave, and
+then measuring the time until the echo comes back. The main issue with these is that they do have a tendency to see smaller objects, as unlike
+the sensors utilizing light, have a cone that they send out as the sound spreads around the room. They can't see closer than 15 cm, so these are only
+far seeing sensors. 
+
+\subsection{Infrared Obstacle Avoidance Sensors}
+Infrared sensor works by utilizing a couple of components. A light emitting diode, and a light reciving diode. Only when the reflected IR light
+becomes large enough will this allow the current to pass the diode. This is a binary  function that may be adjusted by a potentiometer on the 
+breakoutboard.
+
+
+\subsection{Inertial Measurement Unit}
+An accelerometer used is an  MPU9250 IMU Board. Where the chip responsible for calculating the acclerometer is the MPU6050. The chip utilizes the I2C
+protocol. And measurements may be done by requesting a two 8 bit segmentation of data. Again we see that the chip was selected due to being 
+quickly acquirable.
+
+
+\subsection{Raspberry Pi 3B+}
+This is however more complex decision as many aspects of control is striclty limited by the control system we want to use. In the beginning the
+intention was to utilize an earlier verison, the Raspberry Pi 2B, but this has many short commings. Some of these are that it does not have Wifi,
+controlling and logging this externally will be significantly more difficult when an additional device already must be added. Ubuntu is the operative
+system that has the most ROS support. Therefore this opperative system was picked over the more popular Raspberry Pi operative system Raspbian. Since 
+the intention is to us eROS there is limited support for different versions of Ubuntu. That limits what may be used to the following devices:
+
+
+\subsection{Battery Modules}
+
+\subsection{Sandstrom}
+The \emph{Sandstrøm 2000mAh USB C portable charger} has been used as the main power source for the Pi and the sensor arrays. An additional 9V battery had to
+be used in addtion to the originally intended power source as the \emph{Sandstrøm 2000mAh USB C portable charger} does not support suppplying power to two
+different operating voltages. The 9V battery is deemed suitable even though it exceeds the motor max power supply. Due to the voltage drop over the L298N the
+voltage level over the motors will be significantly lower. The 9V battery may also be advertised as 9V, but many lay around 8.4V. Making it suitable for this
+application. Rechargability is however lost for the motors, but it is not expected to drain out. However motor draw is uncertain, and further testing on the
+hardware is essential for documentation purposes, and knowing where the limitations of the system lie. 
+
+
+\subsection{Chassie}
+The \emph{chassie} was made using the CAD tool \emph{Fusion360}. The design is intended to make it easier to assemble and dissasmble. The construciton is 
+made so that 3 [mm] screwes and bolts may hold it together. The construciton is way larger than the Micromouse, but since this version only uses breakoutboards
+and breadbords a size increase is to be expected.
+
+\subsection{}
+
+
+\label{sec: Testing and Troubleshooting}
+Hardware limits the performance of software. Generating enough funds to freely pick solutions is therefore essential for the projects success. There is therefore essential that a 
+budget for components is created from the start. Not only components however time is also of the essence plans for assembly and testing is definitely also required. Planning is essential
+so that the project may finish in time. And if any unexpected issues are to arise later in the project expenses will rise quickly. Paying more upfront in the beginning of the project 
+rather than later may therefore be beneficial both financially, but also by the time gained by the project itself. 
+
+A list of funds that the project may apply for has been created, and the project will therefore continuously make application to gain these grants. Many of these funds do not have deadlines 
+until  march of next year, but it is expedcted that the project memebers around that time will be busy working on the project creating and testing both hardware and software that 
+there will be little to no time for writing applications. The main load of work will therefore be made during this semester.
+
+% There will be a need to have text discussing the importance of  funding, and the projects low priority will require that the project looks elsewhere for additional funds
+% Make sure that there are many privileges working at the university, but the monetary one is limited, and the projects ambitions may be hindered by this
+% Removing this blocker is essential, and a plan for acquiring additional funds may be essential for minimizing the risk related to unexpected failures 
+
+% Hardware development is especially volatile.
+% Requiring multiples
